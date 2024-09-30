@@ -1273,6 +1273,10 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - react-native-config (1.5.3):
+    - react-native-config/App (= 1.5.3)
+  - react-native-config/App (1.5.3):
+    - React-Core
   - react-native-safe-area-context (4.11.0):
     - React-Core
   - React-nativeconfig (0.75.0)
@@ -1618,6 +1622,7 @@ DEPENDENCIES:
   - "React-logger (from `../node_modules/@callstack/react-native-visionos/ReactCommon/logger`)"
   - "React-Mapbuffer (from `../node_modules/@callstack/react-native-visionos/ReactCommon`)"
   - "React-microtasksnativemodule (from `../node_modules/@callstack/react-native-visionos/ReactCommon/react/nativemodule/microtasks`)"
+  - react-native-config (from `../node_modules/react-native-config`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "React-nativeconfig (from `../node_modules/@callstack/react-native-visionos/ReactCommon`)"
   - "React-NativeModulesApple (from `../node_modules/@callstack/react-native-visionos/ReactCommon/react/nativemodule/core/platform/ios`)"
@@ -1724,6 +1729,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@callstack/react-native-visionos/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/@callstack/react-native-visionos/ReactCommon/react/nativemodule/microtasks"
+  react-native-config:
+    :path: "../node_modules/react-native-config"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-nativeconfig:
@@ -1827,6 +1834,7 @@ SPEC CHECKSUMS:
   React-logger: 3b9cc828d9dd5f8ba7da014dab19fcff6beceb79
   React-Mapbuffer: b925e985164304a420b29103c38c6c9d91691d2d
   React-microtasksnativemodule: 5fe43b1e2ec37bf904203618e623c293a9bbe9aa
+  react-native-config: 8f7283449bbb048902f4e764affbbf24504454af
   react-native-safe-area-context: 851c62c48dce80ccaa5637b6aa5991a1bc36eca9
   React-nativeconfig: afe30c46ab7d8b251f38961a644698387f5f9e6d
   React-NativeModulesApple: 911b9a9337ae50d45647817c57c30e5865e1be57
